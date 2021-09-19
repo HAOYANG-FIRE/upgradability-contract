@@ -6,15 +6,15 @@ Implement upgradability Smart contracts through proxy pattern.
 
 ### MsgStore.sol
 
-...
+Contract v1, only be able to store and retrieve one message.
 
 ### MultiMsgStore.sol
 
-...
+Contract v2, be able to store and retrieve multi message.
 
 ### MSProxy.sol
 
-...
+Proxy contract, be able to upgrade contract.
 
 ## Usage
 
