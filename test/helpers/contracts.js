@@ -1,9 +1,6 @@
 import truffleContract from 'truffle-contract'
 import truffleExt from 'truffle-ext'
 import { web3, web3Provider } from './w3'
-import KeyValueStorageJSON from '../../build/contracts/KeyValueStorage.json'
-
-export const KeyValueStorage = getContract(KeyValueStorageJSON)
 
 function getContract (contractAbi) {
   const { requireContract } = truffleExt(web3)

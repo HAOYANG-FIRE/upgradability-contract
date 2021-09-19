@@ -1,16 +1,18 @@
-# Storage Upgradability Example
+# Upgradability Smart Contract Example
 
-Smart contracts for key-value storage and proxy delegate upgradability pattern.
-
-This is a simplified version of [master storage](https://github.com/levelkdev/master-storage).
+Implement upgradability Smart contracts through proxy pattern.
 
 ## Contracts
 
-### KeyValueStorage.sol
+### MsgStore.sol
 
 ...
 
-### Proxy.sol
+### MultiMsgStore.sol
+
+...
+
+### MSProxy.sol
 
 ...
 
@@ -18,15 +20,9 @@ This is a simplified version of [master storage](https://github.com/levelkdev/ma
 
 ### Setup
 
-Make sure you have the following installed globally:
+run `npm install -g truffle`
 
-node 8
-
-TestRPC 6: `npm install -g ethereumjs-testrpc`
-
-Then run `npm install`
-
-`chmod +x ./scripts` to grant execute permissions on the scripts directory
+run `npm install`
 
 ### Compile
 
@@ -37,6 +33,8 @@ $ npm run compile
 ```
 
 ### Test
+
+You must unlock the account before running the test
 
 ```
 $ npm test

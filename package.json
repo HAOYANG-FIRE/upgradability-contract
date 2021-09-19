@@ -1,5 +1,5 @@
 {
-  "name": "smart-contract-upgradability",
+  "name": "upgradability-contrace",
   "version": "0.1.0",
   "license": "MIT",
   "main": "lib/index.js",
@@ -9,10 +9,9 @@
     "src"
   ],
   "dependencies": {
-    "moment": "^2.18.1",
     "truffle-blockchain-utils": "^0.0.3",
-    "truffle-hdwallet-provider": "^0.0.3",
-    "zeppelin-solidity": "1.6.0"
+    "zeppelin-solidity": "1.6.0",
+    "web3": "latest"
   },
   "devDependencies": {
     "babel-cli": "^6.24.1",
